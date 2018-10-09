@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+body{
+	background:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#222;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-size:48px;
+	text-transform:uppercase; 
+}
+h2{
+	font-weight: 700;
+	font-size:42px;
+	font-family: 'Raleway', sans-serif;
+	color:#222222;
+}
+h3{
+	font-weight: 300;
+	font-size:36px;
+	font-family: 'Raleway', sans-serif;
+}
+h4{
+	
+	font-weight: 600;
+	font-size:32px;
+	font-family: 'Raleway', sans-serif;
+}
+h5{
+	font-weight:700;
+	font-size:28px;
+	font-family: 'Raleway', sans-serif;
+}
+h6{ 
+	font-weight: 600;
+	font-size:24px;
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size:20px;
+	line-height: 27px;
+}
+
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+a .img{
+	border:none;
+
+}
+a{transition: background-color 0.5s ease; transition: color 1s; -webkit-transition: color 1s; -o-transition: .5s; -ms-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; transition: .5s;}
+a:hover {transition: background-color 0.5s ease; }
+img{ width:100%;}
+img:hover {transition: background-color 0.5s ease; }
+.clear{
+	clear:both;
+}
+.height5{	height:5px; }
+.height10{	height:10px; }
+.height15{	height:15px; }
+.height20{ 	height:20px; }
+.height25{	height:25px; }
+.height30{	height:30px; }
+.height35{	height:35px; }
+:focus{ outline:none;}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.footer{ padding:120px 0 0 0; border-top:solid 1px #ccc;}
+.footer .get-touch { border-bottom: solid 1px #d3d3d3; padding: 0 0 65px 0; margin: 95px 0 0 0;}
+.footer .get-touch .contact-us{float: left;}
+.footer .get-touch .detail{ margin:45px 0 0 0;}
+.footer .get-touch .contact-us p{}
+.footer .get-touch .contact-us ul{ margin:35px 0 0 0;}
+.footer .get-touch .contact-us ul li{margin: 0 0 20px 0; float: left; width: 100%;}
+.footer .get-touch .contact-us ul li.phone i{ font-size:30px;}
+.footer .get-touch .contact-us ul li span{ font-size: 20px; margin: 0 0 0 0; float: right; width: 88%;}
+.footer .get-touch .contact-us ul li i{ font-size: 28px; float: left; width: 12%;}
+.footer .get-touch .open-hours{float: left;}
+.footer .get-touch .open-hours ul { float: left; width: 92%; }
+.footer .get-touch .open-hours li{ width: 100%; float: left; margin: 0 0 14px 0;}
+.footer .get-touch .open-hours li span.day{ font-weight:800; font-size:20px; float:left;}
+.footer .get-touch .open-hours li span.time{ float:right; font-size:18px; font-weight:300;}
+.footer .get-touch .instagram .col-md-4{    padding-left:0; padding-right: 8px;}
+.footer .get-touch .instagram{ float:left;}
+.footer .get-touch .instagram a{ margin: 0 0 8px 0; float: left;}
+
+
+.footer .about-vinegar{ text-align:center; margin:65px 0 0 0;}
+.footer .about-vinegar .about-detail p{ width:65%; display:inline-block; margin:10px 0 0 0;}
+.footer .about-vinegar .follow-us{margin: 75px 0 0 0;}
+.footer .about-vinegar .follow-us ul{margin: 38px 0 0 0;}
+.footer .about-vinegar .follow-us ul li{display: inline-block; margin: 0 3px;}
+.footer .about-vinegar .follow-us ul li a{color: #222; border: solid 2px #444444; border-radius: 100%; width: 50px; height: 50px; padding: 11px 10px;	float:left;
+ font-size: 20px; }
+.footer .about-vinegar .newsletter{ margin:65px 0 0 0;}
+.footer .about-vinegar .newsletter .field{display: inline-block; margin:48px 0 0 0;}
+.footer .about-vinegar .newsletter input[type=text]{background:#fff; border: solid 2px #444444; color:#6c6c6c; font-size:16px; height:45px; width:325px; padding:0 15px; float:left;}
+.footer .about-vinegar .newsletter a{ height: 45px; color: #fff; background: #444; padding:9px 10px; font-size: 26px; margin:0 0 0 -4px;float: right; width: 48px; } 
+
+.footer .copyrights{ background:#262526; text-align:center; margin: 75px 0 0 0; padding:58px 0;}
+.footer .copyrights span{ color:#a0a0a0; font-size:16px;}
+.footer .copyrights span a{color:#dbdbdb;}
+.footer .copyrights span a:hover{color:#a7a7a7;}
+.footer .copyrights ul{ margin: 22px 0 0 0;}
+.footer .copyrights ul li{ display:inline-block;}
+.footer .copyrights ul li a{ color:#a8a8a8; text-transform: uppercase; font-size:15px;}
+
+
+
+
+
+
+
+
+
+/*CONTACT US*/
+.contact-page .get-in-touch{ padding:120px 0;}
+.contact-page .get-in-touch .get-touch-detail h3{ font-weight: 700;}
+.contact-page .get-in-touch .get-touch-detail p{ margin:10px 0 0 0;}
+.contact-page .get-in-touch .social-icons{margin: 48px 0 0 0;}
+.contact-page .get-in-touch .social-icons ul{margin:18px 0 0 0;}
+.contact-page .get-in-touch .social-icons ul li{display: inline-block; margin: 0 3px;}
+.contact-page .get-in-touch .social-icons ul li a{color: #222; border: solid 2px #444444; border-radius: 100%; width: 50px; height: 50px; padding: 11px 13px;	float:left; font-size: 20px;}
+.contact-page .get-in-touch .social-icons ul li a:hover{color: #808080; border: solid 2px #808080; }
+
+.contact-page .get-in-touch .get-touch-form{}
+.contact-page .get-in-touch .get-touch-form input[type=text]{ float:left; width:48%; border:solid 1px #bfbfbf; height:52px; border-radius:5px;
+padding:0 10px; font-size:18px; color:#464646;}
+.contact-page .get-in-touch .get-touch-form input#email_address{  float:right;}
+.contact-page .get-in-touch .get-touch-form textarea{ margin:20px 0 0 0; width:100%; border:solid 1px #bfbfbf; height:234px; border-radius:5px;
+font-size:18px; color:#464646; padding:10px;}
+.contact-page .get-in-touch .get-touch-form input[type=submit]{ float:left; border:none; border-radius:5px; padding:18px 40px; font-size:15px; color:#fff; font-family: 'Raleway', sans-serif; font-weight:400; text-transform:uppercase; margin:15px 0 0 0;}
+.contact-page .get-in-touch .get-touch-form input[type=submit]:hover{background:#0a1d3b; }
+#find-us { height:680px; width:100%px; }
+#map{ margin:0 0 -4px 0; 	}
+.gm-style-iw * { display: block; width: 270px !important; overflow: hidden;}
+.gm-style-iw h4{ margin: 0; padding: 0; font-size:26px; margin:0 0 6px 0;}
+.gm-style-iw p { margin: 0; padding: 0;}
+.gm-style-iw a { color: #4272db; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
